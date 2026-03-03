@@ -1,0 +1,320 @@
+/* ================================================
+   Navbar — floating pill on scroll (TCGer-style)
+   ================================================ */
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  z-index: 100;
+  padding: 1.25rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 0;
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  box-shadow: none;
+  transition:
+    top 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    width 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    max-width 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    padding 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    border-radius 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    background-color 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    border-color 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    box-shadow 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    backdrop-filter 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Scrolled — floats down as a rounded pill */
+.scrolled {
+  top: 0.75rem;
+  width: calc(100% - 3rem);
+  max-width: 1200px;
+  padding: 0.75rem 1.75rem;
+  border-radius: 50px;
+  background: var(--bg-nav);
+  backdrop-filter: blur(16px) saturate(1.2);
+  -webkit-backdrop-filter: blur(16px) saturate(1.2);
+  border-color: var(--card-border);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* ---- Logo ---- */
+.logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  z-index: 101;
+}
+
+.logoImg {
+  height: 36px;
+  width: auto;
+  transition: opacity 0.2s ease, filter 0.4s ease;
+}
+
+:global([data-theme="dark"]) .logoImg {
+  filter: brightness(0) invert(1);
+}
+
+.logo:hover .logoImg {
+  opacity: 0.8;
+}
+
+/* ---- Desktop links ---- */
+.links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.link {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  position: relative;
+  transition: color 0.25s ease;
+}
+
+.link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--spark-orange);
+  transition: width 0.3s var(--ease-out-expo);
+}
+
+.link:hover {
+  color: var(--text-primary);
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+/* ---- CTA Button ---- */
+.ctaBtn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.55rem 1.2rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  background: var(--spark-orange);
+  border-radius: var(--radius-sm);
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.ctaBtn:hover {
+  background: var(--spark-glow);
+  transform: translateY(-1px);
+}
+
+/* ---- Theme toggle ---- */
+.themeToggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--card-border);
+  background: var(--bg-card);
+  cursor: pointer;
+  transition: all 0.3s var(--ease-out-expo);
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.themeToggle:hover {
+  border-color: var(--spark-orange);
+  box-shadow: 0 0 12px rgba(248, 92, 20, 0.15);
+  transform: scale(1.08);
+}
+
+.themeToggle svg {
+  width: 18px;
+  height: 18px;
+  color: var(--text-secondary);
+  transition: color 0.3s ease;
+}
+
+.themeToggle:hover svg {
+  color: var(--spark-orange);
+}
+
+/* ---- Right controls (mobile) ---- */
+.rightControls {
+  display: none;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* ---- Hamburger ---- */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 32px;
+  height: 24px;
+  position: relative;
+  z-index: 101;
+  padding: 0;
+}
+
+.hamburger span {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: var(--text-primary);
+  border-radius: 1px;
+  transition: all 0.3s var(--ease-out-expo);
+}
+
+.hamburger span:nth-child(1) { top: 2px; }
+.hamburger span:nth-child(2) { top: 11px; }
+.hamburger span:nth-child(3) { top: 20px; }
+
+.hamburger.open span:nth-child(1) {
+  top: 11px;
+  transform: rotate(45deg);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+  transform: translateX(8px);
+}
+
+.hamburger.open span:nth-child(3) {
+  top: 11px;
+  transform: rotate(-45deg);
+}
+
+/* ---- Mobile overlay ---- */
+.mobileOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99;
+  background: var(--bg-mobile-overlay);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.35s var(--ease-out-expo);
+}
+
+.mobileOverlay.visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.mobileMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.mobileLink {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+  opacity: 0;
+  transform: translateY(16px);
+  transition: color 0.2s ease;
+}
+
+.mobileOverlay.visible .mobileLink {
+  animation: fadeInUp 0.5s var(--ease-out-expo) forwards;
+}
+
+.mobileLink:hover {
+  color: var(--spark-orange);
+}
+
+.mobileCta {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  background: var(--spark-orange);
+  border-radius: var(--radius-sm);
+  opacity: 0;
+  transition: background 0.25s ease;
+}
+
+.mobileCta:hover {
+  background: var(--spark-glow);
+}
+
+.mobileOverlay.visible .mobileCta {
+  animation: fadeInUp 0.5s var(--ease-out-expo) 0.35s forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  .nav {
+    padding: 1rem 1.25rem;
+  }
+
+  .scrolled {
+    top: 0.5rem;
+    width: calc(100% - 1.5rem);
+    padding: 0.6rem 1rem;
+    border-radius: 24px;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .rightControls {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

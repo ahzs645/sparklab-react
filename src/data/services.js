@@ -1,0 +1,58 @@
+export const services = [
+  {
+    id: 1,
+    title: '3D Printing & Prototyping',
+    description: 'Bring your designs to life with our professional-grade 3D printers and rapid prototyping capabilities.',
+    icon: '\uD83C\uDFA8',
+    imageUrl: 'https://sparklab.unbc.ca/wp-content/uploads/2024/07/IMG_3193-1024x768.jpeg',
+    featured: true,
+  },
+  {
+    id: 2,
+    title: 'Design & Modeling',
+    description: 'Access CAD software and expert guidance to create detailed designs and technical models.',
+    icon: '\u270D\uFE0F',
+  },
+  {
+    id: 3,
+    title: 'Coding & Electronics',
+    description: 'Build circuits, program microcontrollers, and develop custom electronic solutions for your projects.',
+    icon: '\uD83D\uDCBB',
+    imageUrl: 'https://sparklab.unbc.ca/wp-content/uploads/2024/07/IMG_7933-scaled-1.jpg',
+    featured: true,
+  },
+  {
+    id: 4,
+    title: 'Website Development',
+    description: 'Create your digital presence with web development support, from simple sites to complex applications.',
+    icon: '\uD83C\uDF10',
+  },
+  {
+    id: 5,
+    title: 'AI Tools & Support',
+    description: 'Leverage artificial intelligence tools and get guidance on integrating AI into your projects.',
+    icon: '\uD83E\uDD16',
+  },
+  {
+    id: 6,
+    title: 'Research Support',
+    description: 'Get assistance with academic research, data analysis, and connecting with UNBC resources.',
+    icon: '\uD83D\uDCDA',
+  },
+  {
+    id: 7,
+    title: 'Entrepreneurship Mentoring',
+    description: 'Navigate the journey from idea to business with mentorship and entrepreneurial guidance.',
+    icon: '\uD83D\uDCC8',
+    imageUrl: 'https://sparklab.unbc.ca/wp-content/uploads/2024/12/IMG_0157-scaled.jpg',
+    featured: true,
+  },
+  {
+    id: 8,
+    title: 'Community Connections',
+    description: 'Join a network of creators, innovators, and like-minded individuals driving positive change.',
+    icon: '\uD83E\uDD1D',
+    imageUrl: 'https://sparklab.unbc.ca/wp-content/uploads/2024/12/pgc-repair-cafe-appliances-5-web-1.webp',
+    featured: true,
+  },
+];

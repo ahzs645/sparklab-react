@@ -1,0 +1,279 @@
+/* ================================================
+   VisitInfo — split-panel contact details
+   ================================================ */
+
+.section {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: #09090b;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---- Left panel ---- */
+.left {
+  position: relative;
+  padding: 3rem 2rem 3rem;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.gridBg {
+  position: absolute;
+  inset: 0;
+  opacity: 0.15;
+  pointer-events: none;
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.ghostIcon {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 200px;
+  height: 200px;
+  opacity: 0.06;
+  pointer-events: none;
+  color: #fff;
+}
+
+.ghostIcon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.leftContent {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s var(--ease-out-expo), transform 0.8s var(--ease-out-expo);
+}
+
+.leftContent:global(.revealed) {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.leftTop {
+  margin-bottom: 3rem;
+}
+
+.heading {
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin-bottom: 1rem;
+}
+
+.subtext {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.35);
+  max-width: 360px;
+  line-height: 1.6;
+}
+
+/* Location card */
+.locationCard {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.25rem;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-lg);
+  transition: border-color 0.3s ease;
+}
+
+.left:hover .locationCard {
+  border-color: rgba(248, 92, 20, 0.3);
+}
+
+.locationIconWrap {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(248, 92, 20, 0.15);
+  border-radius: var(--radius-md);
+}
+
+.locationIcon {
+  width: 22px;
+  height: 22px;
+  color: var(--spark-orange);
+}
+
+.locationName {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+.locationLine {
+  font-size: 0.92rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.locationMuted {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+/* ---- Right panel ---- */
+.right {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.infoRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s var(--ease-out-expo), transform 0.8s var(--ease-out-expo);
+}
+
+.infoRow:global(.revealed) {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.infoIcon {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  color: rgba(255, 255, 255, 0.2);
+  margin-top: 0.15rem;
+  transition: color 0.3s ease;
+}
+
+.infoIcon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.infoRow:hover .infoIcon {
+  color: var(--spark-orange);
+}
+
+.infoLabel {
+  font-family: 'Outfit', monospace;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.25);
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+}
+
+.emailLink {
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(1.3rem, 3vw, 2.2rem);
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.emailLink:hover {
+  color: var(--spark-orange);
+}
+
+.meetingTime {
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 0.75rem;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0.75rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 50px;
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.badgeDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+  flex-shrink: 0;
+}
+
+/* ================================================
+   Desktop — side by side
+   ================================================ */
+@media (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+    max-width: none;
+  }
+
+  .left {
+    width: 50%;
+    padding: 5rem 4rem;
+    border-bottom: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+    min-height: 500px;
+  }
+
+  .right {
+    width: 50%;
+    padding: 5rem 4rem;
+  }
+
+  .leftTop {
+    margin-bottom: 6rem;
+  }
+}
+
+/* ================================================
+   Mobile tweaks
+   ================================================ */
+@media (max-width: 767px) {
+  .left {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .right {
+    padding: 2.5rem 1.25rem;
+    gap: 2.5rem;
+  }
+
+  .ghostIcon {
+    width: 120px;
+    height: 120px;
+    top: 1rem;
+    right: 1rem;
+  }
+}

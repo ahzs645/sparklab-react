@@ -1,0 +1,59 @@
+.header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 4rem;
+  opacity: 0;
+  transform: translateY(24px);
+  transition: all 0.7s var(--ease-out-expo);
+}
+
+.header:global(.revealed) {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.label {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--spark-orange);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.label::before,
+.label::after {
+  content: '';
+  width: 40px;
+  height: 1px;
+  background: var(--spark-orange);
+  opacity: 0.5;
+}
+
+.title {
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+/* Light variant for dark backgrounds */
+.light .label {
+  color: var(--spark-orange);
+}
+
+.light .label::before,
+.light .label::after {
+  background: var(--spark-orange);
+}
+
+.light .title {
+  color: #fff;
+}

@@ -1,0 +1,272 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 8rem 2rem 6rem;
+  overflow: hidden;
+}
+
+/* Background image */
+.bgImage {
+  position: absolute;
+  inset: 0;
+  background: url('https://sparklab.unbc.ca/wp-content/uploads/2024/08/widc-dscf6255-t3_1.jpg') center / cover no-repeat;
+  z-index: 0;
+}
+
+/* Gradient overlay */
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    radial-gradient(ellipse at 30% 20%, rgba(248, 92, 20, 0.08) 0%, transparent 50%),
+    linear-gradient(
+      180deg,
+      var(--hero-overlay-start) 0%,
+      var(--hero-overlay-mid) 40%,
+      var(--hero-overlay-mid) 70%,
+      var(--hero-overlay-end) 100%
+    );
+}
+
+/* Animated gradient mesh blobs */
+.meshBlob {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.35;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.meshBlob[data-position="top-right"] {
+  top: -10%;
+  right: -5%;
+  background: radial-gradient(circle, var(--spark-orange) 0%, transparent 70%);
+  animation: float 8s ease-in-out infinite;
+}
+
+.meshBlob[data-position="bottom-left"] {
+  bottom: -15%;
+  left: -10%;
+  background: radial-gradient(circle, var(--navy-light) 0%, transparent 70%);
+  animation: float 10s ease-in-out infinite reverse;
+}
+
+/* Subtle grid decoration */
+.gridDecor {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(ellipse at center, black 20%, transparent 70%);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 20%, transparent 70%);
+}
+
+/* Content — left-aligned */
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ---- Badge ---- */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 1.25rem;
+  border-radius: 50px;
+  border: 1px solid rgba(248, 92, 20, 0.3);
+  background: rgba(248, 92, 20, 0.1);
+  font-family: 'Outfit', monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--spark-orange);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  animation: fadeInUp 0.7s var(--ease-out-expo) forwards;
+  opacity: 0;
+}
+
+.badgeDot {
+  width: 8px;
+  height: 8px;
+  background: var(--spark-orange);
+  border-radius: 50%;
+  animation: blink 2s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+/* ---- SVG Logo ---- */
+.logoWrap {
+  margin-bottom: 2rem;
+  animation: fadeInUp 0.7s var(--ease-out-expo) 0.15s forwards;
+  opacity: 0;
+}
+
+.logo {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  filter: drop-shadow(0 0 20px rgba(248, 92, 20, 0.3));
+}
+
+.logoText {
+  fill: var(--text-primary);
+  transition: fill 0.3s ease;
+}
+
+/* ---- Subtitle ---- */
+.subtitle {
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  font-weight: 300;
+  color: var(--text-secondary);
+  max-width: 640px;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  animation: fadeInUp 0.7s var(--ease-out-expo) 0.3s forwards;
+  opacity: 0;
+}
+
+/* ---- CTA Buttons ---- */
+.cta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  animation: fadeInUp 0.7s var(--ease-out-expo) 0.45s forwards;
+  opacity: 0;
+}
+
+.ctaPrimary,
+.ctaSecondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s var(--ease-out-expo);
+}
+
+.ctaPrimary {
+  background: var(--spark-orange);
+  color: #000;
+}
+
+.ctaPrimary:hover {
+  background: var(--spark-glow);
+  transform: translateY(-2px);
+}
+
+.ctaSecondary {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+:root .ctaSecondary {
+  border-color: var(--card-border);
+}
+
+:global([data-theme="dark"]) .ctaSecondary {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.ctaSecondary:hover {
+  background: var(--text-primary);
+  color: var(--cream);
+  transform: translateY(-2px);
+}
+
+.ctaIcon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
+}
+
+.ctaPrimary:hover .ctaIcon {
+  transform: translate(2px, -2px);
+}
+
+.ctaSecondary:hover .ctaIcon {
+  transform: translateX(3px);
+}
+
+/* ---- Bottom fade ---- */
+.bottomFade {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--cream));
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* ---- Keyframes ---- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* ---- Mobile ---- */
+@media (max-width: 768px) {
+  .hero {
+    padding: 7rem 1.25rem 4rem;
+    min-height: 90vh;
+  }
+
+  .meshBlob {
+    width: 300px;
+    height: 300px;
+  }
+
+  .logo {
+    max-width: 300px;
+  }
+
+  .cta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* ---- Tablet ---- */
+@media (min-width: 769px) and (max-width: 1023px) {
+  .logo {
+    max-width: 500px;
+  }
+}

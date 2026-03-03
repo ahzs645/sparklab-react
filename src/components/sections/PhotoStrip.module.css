@@ -1,0 +1,40 @@
+.strip {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background: var(--services-bg);
+  padding: 0.75rem 0;
+}
+
+.track {
+  display: flex;
+  gap: 0.75rem;
+  animation: scrollStrip 35s linear infinite;
+  width: max-content;
+}
+
+.strip:hover .track {
+  animation-play-state: paused;
+}
+
+.photo {
+  height: 200px;
+  width: auto;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  flex-shrink: 0;
+  transition: transform 0.4s var(--ease-out-expo);
+  filter: brightness(0.85) saturate(0.9);
+}
+
+.photo:hover {
+  transform: scale(1.04) rotate(-1deg);
+  filter: brightness(1) saturate(1);
+  z-index: 2;
+  position: relative;
+}
+
+@keyframes scrollStrip {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
