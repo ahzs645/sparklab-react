@@ -19,7 +19,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.content}>
         <div className={styles.brand}>
-          <img src="/logo.svg" alt="SparkLab" className={styles.logo} />
+          <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="SparkLab" className={styles.logo} />
         </div>
 
         <nav className={styles.links}>

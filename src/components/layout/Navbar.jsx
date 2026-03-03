@@ -52,7 +52,7 @@ export default function Navbar({ theme, onToggleTheme }) {
           e.preventDefault();
           window.scrollTo({ top: 0, behavior: 'smooth' });
         }}>
-          <img src="/logo.svg" alt="SparkLab" className={styles.logoImg} />
+          <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="SparkLab" className={styles.logoImg} />
         </a>
 
         <div className={styles.links}>
