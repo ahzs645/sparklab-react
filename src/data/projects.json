@@ -1,0 +1,628 @@
+[
+  {
+    "id": 442,
+    "title": "Parametric Tube Rack",
+    "slug": "parametric-tube-rack",
+    "date": "2025-03-30T09:25:39.000Z",
+    "excerpt": "",
+    "featuredImage": null,
+    "categories": [
+      "Uncategorized"
+    ],
+    "modelViewer": {
+      "src": "/wp-content/uploads/2025/03/playground.glb",
+      "poster": null,
+      "height": 500,
+      "autoRotate": false,
+      "cameraOrbit": "0deg 155deg 87.1%",
+      "cameraTarget": "0m 0m 0%",
+      "bgColor": "transparent"
+    },
+    "designer": null,
+    "projectDate": null,
+    "contact": null,
+    "lab": null,
+    "objectives": [],
+    "materials": [],
+    "phases": [],
+    "skillsDeveloped": [],
+    "supportResources": [],
+    "productImages": [],
+    "clientFeedback": null,
+    "contentHtml": "<div class=\"wp-block-media-model-viewer-block\"><div class=\"model-viewer-app\" data-modelviewer=\"{&quot;modelViewerSrc&quot;:&quot;http://sparklab.local/wp-content/uploads/2025/03/playground.glb&quot;,&quot;modelViewerPoster&quot;:null,&quot;bg_color&quot;:&quot;transparent&quot;,&quot;bl_height&quot;:500,&quot;arMode&quot;:&quot;webxr&quot;,&quot;arEnablePan&quot;:true,&quot;arCameraControls&quot;:true,&quot;camera_fieldOfView&quot;:0,&quot;camera_autoRotate&quot;:false,&quot;camera_orbit_speed&quot;:32,&quot;camera_orbit_theta&quot;:0,&quot;camera_orbit_phi&quot;:155,&quot;camera_orbit_radius&quot;:87.1,&quot;camera_target_x&quot;:0,&quot;camera_target_y&quot;:0,&quot;camera_target_z&quot;:0}\"><model-viewer alt=\"\" src=\"http://sparklab.local/wp-content/uploads/2025/03/playground.glb\" ar=\"\" ar-modes=\"webxr\" camera-controls=\"\" enable-pan=\"\" camera-orbit-speed=\"32deg\" min-field-of-view=\"10deg\" max-field-of-view=\"180deg\" field-of-view=\"auto\" camera-orbit=\"0deg 155deg 87.1%\" max-camera-orbit=\"-Infinity 180deg 87.1%\" camera-target=\"0m 0m 0%\" style=\"background-color:transparent;height:500px\"></model-viewer></div></div>"
+  },
+  {
+    "id": 377,
+    "title": "50 mL pH Calibration Tubes Holder",
+    "slug": "50-ml-ph-calibration-tubes-holder",
+    "date": "2024-12-03T05:03:36.000Z",
+    "excerpt": "Date: March 13, 2024Designer: Caleb Mueller Objectives and Constraints Objective: This challenge was to design and manufacture a holder for multiple sets of three 50 mL pH calibration tubes. This was ...",
+    "featuredImage": "2024/12/Screenshot-2024-12-02-at-12.57.10 PM.png",
+    "categories": [
+      "Projects"
+    ],
+    "modelViewer": {
+      "src": "/wp-content/uploads/2024/12/tube.glb",
+      "poster": null,
+      "height": 500,
+      "autoRotate": true,
+      "cameraOrbit": "-3deg 49deg 105%",
+      "cameraTarget": "0m 0m 0%",
+      "bgColor": "transparent"
+    },
+    "designer": "Caleb Mueller",
+    "projectDate": "March 13, 2024",
+    "contact": null,
+    "lab": null,
+    "objectives": [
+      "**Objective:** This challenge was to design and manufacture a holder for multiple sets of three 50 mL pH calibration tubes. This was to replace the old method of storing them in a beaker due to their conical shaped bottom.",
+      "**Constraints**: Must fit the tubes with minimal movement to avoid spillage. Must also have chemical resistance if spillage occurs."
+    ],
+    "materials": [
+      "**Software:** Autodesk Fusion",
+      "**Materials**: PLA and PC filament",
+      "**Equipment:** Bambu X1C 3D printer"
+    ],
+    "phases": [
+      {
+        "title": "I. Modelling and Prototyping",
+        "items": [
+          "The tubes were measured using calipers, and the holder was modelled in Fusion. Debossed text indicating which pH tube goes where were added. A prototype was printed in PLA for ﬁt testing."
+        ]
+      },
+      {
+        "title": "III. Final Printing",
+        "items": [
+          "Four models were printed on a Bambu X1C using transparent black PC filament."
+        ]
+      }
+    ],
+    "skillsDeveloped": [
+      "Text debossing in Fusion 360",
+      "3D printing with a difficult engineering material",
+      "3D printing tolerances"
+    ],
+    "supportResources": [
+      "Dr. Natalie Linklater",
+      "UNBC Hydrology Lab"
+    ],
+    "productImages": [
+      {
+        "src": "/wp-content/uploads/2024/12/image-6-1024x606.png",
+        "alt": "",
+        "caption": "Final product (left), and product in use (right)"
+      }
+    ],
+    "clientFeedback": {
+      "quote": "“Wow! Thank you so much for making these. Having the tube holders for pH indicators helps to organize the labs.”\n\nNatalie Linklater",
+      "name": ""
+    },
+    "contentHtml": "<div class=\"wp-block-media-model-viewer-block\"><div class=\"model-viewer-app\" data-modelviewer=\"{&quot;modelViewerSrc&quot;:&quot;http://sparklab.local/wp-content/uploads/2024/12/tube.glb&quot;,&quot;modelViewerPoster&quot;:null,&quot;bl_height&quot;:500,&quot;arMode&quot;:&quot;webxr scene-viewer quick-look&quot;,&quot;arEnablePan&quot;:true,&quot;arCameraControls&quot;:true,&quot;camera_fieldOfView&quot;:0,&quot;camera_autoRotate&quot;:true,&quot;camera_orbit_speed&quot;:32,&quot;camera_orbit_theta&quot;:-3,&quot;camera_orbit_phi&quot;:49,&quot;camera_orbit_radius&quot;:105,&quot;camera_target_x&quot;:0,&quot;camera_target_y&quot;:0,&quot;camera_target_z&quot;:0}\"><model-viewer alt=\"\" src=\"http://sparklab.local/wp-content/uploads/2024/12/tube.glb\" ar=\"\" ar-modes=\"webxr scene-viewer quick-look\" camera-controls=\"\" enable-pan=\"\" auto-rotate=\"\" camera-orbit-speed=\"32deg\" min-field-of-view=\"10deg\" max-field-of-view=\"180deg\" field-of-view=\"auto\" camera-orbit=\"-3deg 49deg 105%\" max-camera-orbit=\"-Infinity 180deg 105%\" camera-target=\"0m 0m 0%\" style=\"height:500px\"></model-viewer></div></div>\n\n\n\n<div class=\"wp-block-group\">\n<p><strong>Date</strong>: March 13, 2024<br><strong>Designer:</strong> Caleb Mueller</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Objectives and Constraints</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Objective:</strong> This challenge was to design and manufacture a holder for multiple sets of three 50 mL pH calibration tubes. This was to replace the old method of storing them in a beaker due to their conical shaped bottom.</li>\n\n\n\n<li><strong>Constraints</strong>: Must fit the tubes with minimal movement to avoid spillage. Must also have chemical resistance if spillage occurs.  </li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Materials and Tools</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Software:</strong> Autodesk Fusion</li>\n\n\n\n<li><strong>Materials</strong>: PLA and PC filament</li>\n\n\n\n<li><strong>Equipment:</strong> Bambu X1C 3D printer</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<h3 class=\"wp-block-heading has-text-align-left\">            <strong>Phases of Development</strong></h3>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>I. Modelling and Prototyping</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li>The tubes were measured using calipers, and the holder was modelled in Fusion. Debossed text indicating which pH tube goes where were added. A prototype was printed in PLA for ﬁt testing.</li>\n</ul>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>III. Final Printing</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Four models were printed on a Bambu X1C using transparent black PC filament.</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Skills Developed</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Text debossing in Fusion 360</li>\n\n\n\n<li>3D printing with a difficult engineering material</li>\n\n\n\n<li>3D printing tolerances</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Support and Resources</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Dr. Natalie Linklater</li>\n\n\n\n<li>UNBC Hydrology Lab</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Product Images</strong></h3>\n\n\n\n<figure class=\"wp-block-image size-large is-resized\"><img src=\"http://sparklab.local/wp-content/uploads/2024/12/image-6-1024x606.png\" alt=\"\" class=\"wp-image-379\" style=\"width:574px;height:auto\"/></figure>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Figure 1:</strong> Final product (left), and product in use (right)</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Client Feedback</strong></h3>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p><em>“</em>Wow! Thank you so much for making these. Having the tube holders for pH indicators helps to organize the labs.”</p>\n\n\n\n<p>Natalie Linklater</p>\n</blockquote>\n</div>"
+  },
+  {
+    "id": 366,
+    "title": "Tremor Simulation Device",
+    "slug": "tremor-simulation-device",
+    "date": "2024-12-03T04:56:04.000Z",
+    "excerpt": "Date: July 10, 2024Designer: Caleb Mueller Objectives and Constraints Objective: Re-create/re-design a prototype of a tremor simulation device. Address the weaknesses of the original that caused it to...",
+    "featuredImage": "2024/12/Screenshot-2024-12-02-at-12.55.06 PM.png",
+    "categories": [
+      "Projects"
+    ],
+    "modelViewer": {
+      "src": "/wp-content/uploads/2025/01/tremor.glb",
+      "poster": null,
+      "height": 500,
+      "autoRotate": false,
+      "cameraOrbit": "0deg 75deg 105%",
+      "cameraTarget": "0m 0m 0%",
+      "bgColor": "transparent"
+    },
+    "designer": "Caleb Mueller",
+    "projectDate": "July 10, 2024",
+    "contact": null,
+    "lab": null,
+    "objectives": [
+      "**Objective:** Re-create/re-design a prototype of a tremor simulation device. Address the weaknesses of the original that caused it to break along the layer lines",
+      "**Constraints**: Must screw into a proprietary wrist band and hold a motor and spinning weight."
+    ],
+    "materials": [
+      "**Software:** Autodesk Fusion",
+      "**Materials**: PLA filament, heat-set inserts",
+      "**Equipment:** Bambu X1C 3D printer"
+    ],
+    "phases": [
+      {
+        "title": "I. Client Consultation",
+        "items": [
+          "The broken model was plugged into power to demonstrate how the mechanism works. Consulted with client to determine the measurements and parameters needed for the 3D model and print."
+        ]
+      },
+      {
+        "title": "II. CAD Modelling and Prototyping",
+        "items": [
+          "Measurements were taken of the broken original prototype and the other components to be re-created in Fusion. A dynamic assembly was created so the movement of the device could be simulated before printing. &nbsp;"
+        ]
+      },
+      {
+        "title": "III. Printing of Final Assembly",
+        "items": [
+          "The final product was printed and assembled using heat-set inserts and screws."
+        ]
+      }
+    ],
+    "skillsDeveloped": [
+      "Re-orientation of 3D printed parts for strength",
+      "Joining an assembly using heat-set inserts/tolerances for heat-set inserts",
+      "Dynamic assemblies in Fusion"
+    ],
+    "supportResources": [
+      "Richard McAloney",
+      "Centre for Technology Adoption for Aging in the North (CTAAN)"
+    ],
+    "productImages": [
+      {
+        "src": "/wp-content/uploads/2024/12/image-5.png",
+        "alt": "",
+        "caption": "Taking measurements of the original broken prototype"
+      },
+      {
+        "src": "/wp-content/uploads/2024/12/image-4.png",
+        "alt": "",
+        "caption": ""
+      }
+    ],
+    "clientFeedback": {
+      "quote": "“The tremor simulation device is a tool that allows for the testing of a tremor reduction glove used by people living with essential tremor or Parkinson’s. It’s not a commercial product so when it broke it’s very difficult to replace. The team at Spark Lab was able to redesign the clamp and get the system operational in no time.”",
+      "name": "Richard McAloney"
+    },
+    "contentHtml": "<div class=\"wp-block-group\">\n<div class=\"wp-block-media-model-viewer-block\"><div class=\"model-viewer-app\" data-modelviewer=\"{&quot;modelViewerSrc&quot;:&quot;http://sparklab.local/wp-content/uploads/2025/01/tremor.glb&quot;,&quot;modelViewerPoster&quot;:null,&quot;bg_color&quot;:&quot;transparent&quot;,&quot;bl_height&quot;:500,&quot;arMode&quot;:&quot;webxr&quot;,&quot;arEnablePan&quot;:true,&quot;arCameraControls&quot;:true,&quot;camera_fieldOfView&quot;:0,&quot;camera_autoRotate&quot;:false,&quot;camera_orbit_speed&quot;:32,&quot;camera_orbit_theta&quot;:0,&quot;camera_orbit_phi&quot;:75,&quot;camera_orbit_radius&quot;:105,&quot;camera_target_x&quot;:0,&quot;camera_target_y&quot;:0,&quot;camera_target_z&quot;:0}\"><model-viewer alt=\"\" src=\"http://sparklab.local/wp-content/uploads/2025/01/tremor.glb\" ar=\"\" ar-modes=\"webxr\" camera-controls=\"\" enable-pan=\"\" camera-orbit-speed=\"32deg\" min-field-of-view=\"10deg\" max-field-of-view=\"180deg\" field-of-view=\"auto\" camera-orbit=\"0deg 75deg 105%\" max-camera-orbit=\"-Infinity 180deg 105%\" camera-target=\"0m 0m 0%\" style=\"background-color:transparent;height:500px\"></model-viewer></div></div>\n\n\n\n<p><strong>Date:</strong> July 10, 2024<br><strong>Designer:</strong> Caleb Mueller</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Objectives and Constraints</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Objective:</strong> Re-create/re-design a prototype of a tremor simulation device. Address the weaknesses of the original that caused it to break along the layer lines</li>\n\n\n\n<li><strong>Constraints</strong>: Must screw into a proprietary wrist band and hold a motor and spinning weight. </li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Materials and Tools</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Software:</strong> Autodesk Fusion</li>\n\n\n\n<li><strong>Materials</strong>: PLA filament, heat-set inserts</li>\n\n\n\n<li><strong>Equipment:</strong> Bambu X1C 3D printer</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Phases of Development</strong></h3>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>I. Client Consultation</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li>The broken model was plugged into power to demonstrate how the mechanism works. Consulted with client to determine the measurements and parameters needed for the 3D model and print. </li>\n</ul>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>II. CAD Modelling and Prototyping</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Measurements were taken of the broken original prototype and the other components to be re-created in Fusion. A dynamic assembly was created so the movement of the device could be simulated before printing. &nbsp;</li>\n</ul>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>III. Printing of Final Assembly</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li>The final product was printed and assembled using heat-set inserts and screws.</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Skills Developed</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Re-orientation of 3D printed parts for strength</li>\n\n\n\n<li>Joining an assembly using heat-set inserts/tolerances for heat-set inserts</li>\n\n\n\n<li>Dynamic assemblies in Fusion</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Support and Resources</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Richard McAloney</li>\n\n\n\n<li>Centre for Technology Adoption for Aging in the North (CTAAN)</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Product Images</strong></h3>\n\n\n\n<figure class=\"wp-block-image size-full\"><img src=\"http://sparklab.local/wp-content/uploads/2024/12/image-5.png\" alt=\"\" class=\"wp-image-373\"/></figure>\n\n\n\n<figure class=\"wp-block-image size-full\"><img src=\"http://sparklab.local/wp-content/uploads/2024/12/image-4.png\" alt=\"\" class=\"wp-image-372\"/></figure>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Figure 1:</strong> Taking measurements of the original broken prototype</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Client Feedback</strong></h3>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p><em>“The tremor simulation device is a tool that allows for the testing of a tremor reduction glove used by people living with essential tremor or Parkinson’s. It’s not a commercial product so when it broke it’s very difficult to replace. The team at Spark Lab was able to redesign the clamp and get the system operational in no time.”</em></p>\n\n\n\n<p>- Richard McAloney</p>\n</blockquote>\n</div>"
+  },
+  {
+    "id": 357,
+    "title": "Tree Sap Collector",
+    "slug": "tree-sap-collector",
+    "date": "2024-12-03T04:49:11.000Z",
+    "excerpt": "Date: June 28, 2024Designer: Caleb Mueller Objectives and Constraints Objective: Create a 3D printed sap collector that can accept a proprietary collection tube. Constraints: Must withstand being scre...",
+    "featuredImage": "2024/12/image-3.png",
+    "categories": [
+      "Projects"
+    ],
+    "modelViewer": {
+      "src": "/wp-content/uploads/2024/12/sapcol.glb",
+      "poster": null,
+      "height": 500,
+      "autoRotate": true,
+      "cameraOrbit": "0deg 75deg 105%",
+      "cameraTarget": "0m 0m 0%",
+      "bgColor": "transparent"
+    },
+    "designer": "Caleb Mueller",
+    "projectDate": "June 28, 2024",
+    "contact": null,
+    "lab": null,
+    "objectives": [
+      "**Objective:** Create a 3D printed sap collector that can accept a proprietary collection tube.",
+      "**Constraints:** Must withstand being screwed into a tree and outdoor conditions."
+    ],
+    "materials": [
+      "**Software:** Autodesk Fusion",
+      "**Materials**: PLA and ABS filament",
+      "**Equipment:** Voron Trident and Bambu X1C 3D printer"
+    ],
+    "phases": [
+      {
+        "title": "I. Client Consultation",
+        "items": [
+          "Met with the client to determine the design criteria and properties of the sap collector. Measured the sap collection tube."
+        ]
+      },
+      {
+        "title": "II. CAD Modelling and Prototyping",
+        "items": [
+          "The sap collector was modeled using Fusion. Prototypes were printed in PLA to test the fit of the collection tube."
+        ]
+      },
+      {
+        "title": "III. Printing of Final Assembly",
+        "items": [
+          "A final sap collector was printed in ABS filament to withstand outdoor conditions."
+        ]
+      }
+    ],
+    "skillsDeveloped": [
+      "Custom 3D printed screw holes",
+      "Design to accept standard metal screws",
+      "3D prints for outdoor functional use"
+    ],
+    "supportResources": [],
+    "productImages": [
+      {
+        "src": "/wp-content/uploads/2024/12/image-2.png",
+        "alt": "",
+        "caption": "Back view of 3D model"
+      }
+    ],
+    "clientFeedback": {
+      "quote": "",
+      "name": ""
+    },
+    "contentHtml": "<div class=\"wp-block-media-model-viewer-block\"><div class=\"model-viewer-app\" data-modelviewer=\"{&quot;modelViewerSrc&quot;:&quot;http://sparklab.local/wp-content/uploads/2024/12/sapcol.glb&quot;,&quot;modelViewerPoster&quot;:null,&quot;bg_color&quot;:&quot;transparent&quot;,&quot;bl_height&quot;:500,&quot;arMode&quot;:&quot;webxr&quot;,&quot;arEnablePan&quot;:true,&quot;arCameraControls&quot;:true,&quot;camera_fieldOfView&quot;:0,&quot;camera_autoRotate&quot;:true,&quot;camera_orbit_speed&quot;:32,&quot;camera_orbit_theta&quot;:0,&quot;camera_orbit_phi&quot;:75,&quot;camera_orbit_radius&quot;:105,&quot;camera_target_x&quot;:0,&quot;camera_target_y&quot;:0,&quot;camera_target_z&quot;:0}\"><model-viewer alt=\"\" src=\"http://sparklab.local/wp-content/uploads/2024/12/sapcol.glb\" ar=\"\" ar-modes=\"webxr\" camera-controls=\"\" enable-pan=\"\" auto-rotate=\"\" camera-orbit-speed=\"32deg\" min-field-of-view=\"10deg\" max-field-of-view=\"180deg\" field-of-view=\"auto\" camera-orbit=\"0deg 75deg 105%\" max-camera-orbit=\"-Infinity 180deg 105%\" camera-target=\"0m 0m 0%\" style=\"background-color:transparent;height:500px\"></model-viewer></div></div>\n\n\n\n<div class=\"wp-block-group\">\n<p><strong>Date:</strong> June 28, 2024<br><strong>Designer:</strong> Caleb Mueller</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Objectives and Constraints</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Objective:</strong> Create a 3D printed sap collector that can accept a proprietary collection tube.</li>\n\n\n\n<li><strong>Constraints:</strong> Must withstand being screwed into a tree and outdoor conditions.</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Materials and Tools</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Software:</strong> Autodesk Fusion</li>\n\n\n\n<li><strong>Materials</strong>: PLA and ABS filament</li>\n\n\n\n<li><strong>Equipment:</strong> Voron Trident and Bambu X1C 3D printer</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Phases of Development</strong></h3>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>I. Client Consultation</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Met with the client to determine the design criteria and properties of the sap collector. Measured the sap collection tube.</li>\n</ul>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>II. CAD Modelling and Prototyping</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li>The sap collector was modeled using Fusion. Prototypes were printed in PLA to test the fit of the collection tube.</li>\n</ul>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>III. Printing of Final Assembly</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li>A final sap collector was printed in ABS filament to withstand outdoor conditions.</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Skills Developed</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Custom 3D printed screw holes</li>\n\n\n\n<li>Design to accept standard metal screws</li>\n\n\n\n<li>3D prints for outdoor functional use</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Support and Resources</strong></h3>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Product Images</strong></h3>\n\n\n\n<figure class=\"wp-block-image size-full\"><img src=\"http://sparklab.local/wp-content/uploads/2024/12/image-2.png\" alt=\"\" class=\"wp-image-362\"/></figure>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Figure 1:</strong> Back view of 3D model</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Client Feedback</strong></h3>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p></p>\n</blockquote>\n</div>"
+  },
+  {
+    "id": 328,
+    "title": "Orbital Shaker and Culture Plate Holder System",
+    "slug": "orbital-shaker-and-culture-plate-holder-system",
+    "date": "2024-12-03T04:36:41.000Z",
+    "excerpt": "Date: March 11, 2024Designer: Caleb Mueller Objectives and Constraints Objective: Design and manufacture a culture plate holding system that is compatible with a proprietary orbital shaker Constraints...",
+    "featuredImage": "2024/12/Screenshot-2024-12-02-at-12.28.57 PM.png",
+    "categories": [
+      "Projects"
+    ],
+    "modelViewer": {
+      "src": "/wp-content/uploads/2025/01/Orbitalshaker.glb",
+      "poster": null,
+      "height": 500,
+      "autoRotate": false,
+      "cameraOrbit": "0deg 75deg 105%",
+      "cameraTarget": "0m 0m 0%",
+      "bgColor": "transparent"
+    },
+    "designer": "Caleb Mueller",
+    "projectDate": "March 11, 2024",
+    "contact": null,
+    "lab": null,
+    "objectives": [
+      "**Objective:** Design and manufacture a culture plate holding system that is compatible with a proprietary orbital shaker",
+      "**Constraints**: Cannot cover the sides of the culture plate and must resist vibrations for long periods"
+    ],
+    "materials": [
+      "**Software:** Autodesk Fusion",
+      "**Materials**: PETG and PLA filament",
+      "**Equipment:** Ender 3 3D printer and digital calipers"
+    ],
+    "phases": [
+      {
+        "title": "I. Client Consultation",
+        "items": [
+          "Met with the client to determine the design criteria and properties of the holding system. Measurements were taken of the orbital shaker and the culture plate to determine the dimensions of the CAD model.&nbsp;"
+        ]
+      },
+      {
+        "title": "II. CAD Modelling and Prototyping",
+        "items": [
+          "Modelling of the system was completed, with iterative progress presented to the client. Models were 3D printed with PLA and PETG, joined with sanding and super glue, and tested in the orbital shaker. &nbsp;"
+        ]
+      },
+      {
+        "title": "III. Printing of Final Assembly",
+        "items": [
+          "12 final models were printed on an Ender 3 printer using PETG filament and joined together using sanding and super glue."
+        ]
+      }
+    ],
+    "skillsDeveloped": [
+      "Effective client consultation",
+      "Consideration of expansion and shrinkage of different 3D printing plastics",
+      "3D CAD tolerances",
+      "Methods of joining PETG and PLA plastic."
+    ],
+    "supportResources": [
+      "**Graduate Student: **Maryam Ghaffarzadeh",
+      "**Supervisor: **Dr. Stephen Rader",
+      "**Lab: **UNBC Northern Medical Science Lab"
+    ],
+    "productImages": [
+      {
+        "src": "/wp-content/uploads/2024/12/culture-plate-holders-in-use-1024x770.jpeg",
+        "alt": "",
+        "caption": "Culture plate holders in use on the orbital shaker"
+      }
+    ],
+    "clientFeedback": {
+      "quote": "“I was trying to attach plastic plates to a shaking platform for an algal growth assay. I used to use tape for that, which was a nuisance because it required lots of tapping and untapping. Spark Lab designed a plate holder that would fit into the holes in the platform. I am immensely thankful to Fryderyk Paczkowski and Caleb Mueller from the Spark Lab for their ingenuity and support in creating the custom plate clamp holders for my research project. Transitioning from the cumbersome tape method to these well",
+      "name": "crafted clamps has significantly streamlined my process of growing C.merolae strains, allowing for seamless measurements and maintenance of these cultures. This improvement has not only enhanced the efficiency of my work but has also positively impacted the quality of my research outcomes.”"
+    },
+    "contentHtml": "<div class=\"wp-block-group\">\n<div class=\"wp-block-media-model-viewer-block\"><div class=\"model-viewer-app\" data-modelviewer=\"{&quot;modelViewerSrc&quot;:&quot;http://sparklab.local/wp-content/uploads/2025/01/Orbitalshaker.glb&quot;,&quot;modelViewerPoster&quot;:null,&quot;bg_color&quot;:&quot;transparent&quot;,&quot;bl_height&quot;:500,&quot;arMode&quot;:&quot;webxr&quot;,&quot;arEnablePan&quot;:true,&quot;arCameraControls&quot;:true,&quot;camera_fieldOfView&quot;:0,&quot;camera_autoRotate&quot;:false,&quot;camera_orbit_speed&quot;:32,&quot;camera_orbit_theta&quot;:0,&quot;camera_orbit_phi&quot;:75,&quot;camera_orbit_radius&quot;:105,&quot;camera_target_x&quot;:0,&quot;camera_target_y&quot;:0,&quot;camera_target_z&quot;:0}\"><model-viewer alt=\"\" src=\"http://sparklab.local/wp-content/uploads/2025/01/Orbitalshaker.glb\" ar=\"\" ar-modes=\"webxr\" camera-controls=\"\" enable-pan=\"\" camera-orbit-speed=\"32deg\" min-field-of-view=\"10deg\" max-field-of-view=\"180deg\" field-of-view=\"auto\" camera-orbit=\"0deg 75deg 105%\" max-camera-orbit=\"-Infinity 180deg 105%\" camera-target=\"0m 0m 0%\" style=\"background-color:transparent;height:500px\"></model-viewer></div></div>\n\n\n\n<p><strong>Date:</strong> March 11, 2024<br><strong>Designer:</strong> Caleb Mueller</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Objectives and Constraints</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Objective:</strong> Design and manufacture a culture plate holding system that is compatible with a proprietary orbital shaker</li>\n\n\n\n<li><strong>Constraints</strong>: Cannot cover the sides of the culture plate and must resist vibrations for long periods</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Materials and Tools</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Software:</strong> Autodesk Fusion</li>\n\n\n\n<li><strong>Materials</strong>: PETG and PLA filament</li>\n\n\n\n<li><strong>Equipment:</strong> Ender 3 3D printer and digital calipers</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Phases of Development</strong></h3>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>I. Client Consultation</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Met with the client to determine the design criteria and properties of the holding system. Measurements were taken of the orbital shaker and the culture plate to determine the dimensions of the CAD model.&nbsp;</li>\n</ul>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>II. CAD Modelling and Prototyping</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Modelling of the system was completed, with iterative progress presented to the client. Models were 3D printed with PLA and PETG, joined with sanding and super glue, and tested in the orbital shaker. &nbsp;</li>\n</ul>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>III. Printing of Final Assembly</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li>12 final models were printed on an Ender 3 printer using PETG filament and joined together using sanding and super glue.</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Skills Developed</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Effective client consultation</li>\n\n\n\n<li>Consideration of expansion and shrinkage of different 3D printing plastics</li>\n\n\n\n<li>3D CAD tolerances</li>\n\n\n\n<li>Methods of joining PETG and PLA plastic.</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Support and Resources</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Graduate Student: </strong>Maryam Ghaffarzadeh</li>\n\n\n\n<li><strong>Supervisor: </strong>Dr. Stephen Rader</li>\n\n\n\n<li><strong>Lab: </strong>UNBC Northern Medical Science Lab</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Product Images</strong></h3>\n\n\n\n<figure class=\"wp-block-image size-large\"><img src=\"http://sparklab.local/wp-content/uploads/2024/12/culture-plate-holders-in-use-1024x770.jpeg\" alt=\"\" class=\"wp-image-344\"/></figure>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Figure 1:</strong> Culture plate holders in use on the orbital shaker</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Client Feedback</strong></h3>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p><em>“I was trying to attach plastic plates to a shaking platform for an algal growth assay. I used to use tape for that, which was a nuisance because it required lots of tapping and untapping. Spark Lab designed a plate holder that would fit into the holes in the platform. I am immensely thankful to Fryderyk Paczkowski and Caleb Mueller from the Spark Lab for their ingenuity and support in creating the custom plate clamp holders for my research project. Transitioning from the cumbersome tape method to these well-crafted clamps has significantly streamlined my process of growing C.merolae strains, allowing for seamless measurements and maintenance of these cultures. This improvement has not only enhanced the efficiency of my work but has also positively impacted the quality of my research outcomes.”</em></p>\n\n\n\n<p>– Maryam Ghaffarzadeh</p>\n</blockquote>\n</div>"
+  },
+  {
+    "id": 308,
+    "title": "Point Supported Cross Laminated Timber (CLT) Assembly",
+    "slug": "point-supported-cross-laminated-timber-clt-assembly",
+    "date": "2024-12-03T04:25:08.000Z",
+    "excerpt": "Date: March 21, 2024Designer: Houman Ganjali, Caleb Mueller Objectives and Constraints Objective: Convert STL models into editable models. Since previous attempts to 3D print have failed, edit/scale e...",
+    "featuredImage": "2024/12/Houmans-architectural-assembly-scaled.jpeg",
+    "categories": [
+      "Projects"
+    ],
+    "modelViewer": {
+      "src": "/wp-content/uploads/2025/01/Houman.glb",
+      "poster": null,
+      "height": 500,
+      "autoRotate": false,
+      "cameraOrbit": "0deg 75deg 105%",
+      "cameraTarget": "0m 0m 0%",
+      "bgColor": "transparent"
+    },
+    "designer": "Houman Ganjali, Caleb Mueller",
+    "projectDate": "March 21, 2024",
+    "contact": null,
+    "lab": null,
+    "objectives": [
+      "**Objective:** Convert STL models into editable models. Since previous attempts to 3D print have failed, edit/scale existing models for strength and print the 5 pieces to assemble.",
+      "**Constraints:** CLT model must be multi-color."
+    ],
+    "materials": [
+      "**Software:** Autodesk Fusion",
+      "**Materials**: Polycarbonate filament",
+      "**Equipment:** Bambu Lab X1C 3D printer and digital calipers"
+    ],
+    "phases": [
+      {
+        "title": "I. Conversion",
+        "items": [
+          "The previously printed models were provided in STL mesh format from AutoCAD. These were imported into Fusion and converted to solid bodies."
+        ]
+      },
+      {
+        "title": "II. CAD Modelling and Prototyping",
+        "items": [
+          "To prevent the 3D printed cylinders from snapping, the diameters were increased by 2mm (with an increase in all hole diameters of 2.4mm for ﬁt). The large panel piece was edited to appear as cross-laminated timber panels and separated into 3 bodies for multi-color printing to accent the orientation of the timber stacking."
+        ]
+      },
+      {
+        "title": "III. Printing of Final Assembly",
+        "items": [
+          "The pieces seen in Figure 1 were initially printed in carbon ﬁber nylon, but this material proved to be too brittle for this application, even with increased cylinder diameters. The ﬁnal product was printed in PLA as it was in the past, as the dimension changes ensured sufficient strength. The middle CLT model was printed in 2 colors using the Bambu AMS system."
+        ]
+      }
+    ],
+    "skillsDeveloped": [
+      "Converting 3D mesh ﬁles into solids.",
+      "Multi-color printing with AMS system.",
+      "3D printing support structures.",
+      "3D CAD tolerances."
+    ],
+    "supportResources": [
+      "Grad Student: Houman Ganjali (provided CAD files)"
+    ],
+    "productImages": [
+      {
+        "src": "/wp-content/uploads/2024/12/Assembly-separated-e1733170991966-680x1024.jpg",
+        "alt": "",
+        "caption": "3D models in Fusion"
+      }
+    ],
+    "clientFeedback": {
+      "quote": "“Overall, the quality of the print was decent with a clean end ﬁnish. Slender parts were fused to the larger parts very well resulting in an acceptable robustness needed for frequent assembling and disassembling that the model will experience, given the print is meant to be used as a demonstration of the structural system in classes and conferences. The use of different colors on individual parts made the model more illustrative. As it is, other than the colors used in the model which do not match the actual material i.e., cross laminated timber and glue laminated timber, and steel, nothing about the model needs to be changed/improved. Thanks for the help and great job on the print”\n\nHouman Ganjal",
+      "name": ""
+    },
+    "contentHtml": "<div class=\"wp-block-group\">\n<div class=\"wp-block-media-model-viewer-block\"><div class=\"model-viewer-app\" data-modelviewer=\"{&quot;modelViewerSrc&quot;:&quot;http://sparklab.local/wp-content/uploads/2025/01/Houman.glb&quot;,&quot;modelViewerPoster&quot;:null,&quot;bg_color&quot;:&quot;transparent&quot;,&quot;bl_height&quot;:500,&quot;arMode&quot;:&quot;webxr&quot;,&quot;arEnablePan&quot;:true,&quot;arCameraControls&quot;:true,&quot;camera_fieldOfView&quot;:0,&quot;camera_autoRotate&quot;:false,&quot;camera_orbit_speed&quot;:32,&quot;camera_orbit_theta&quot;:0,&quot;camera_orbit_phi&quot;:75,&quot;camera_orbit_radius&quot;:105,&quot;camera_target_x&quot;:0,&quot;camera_target_y&quot;:0,&quot;camera_target_z&quot;:0}\"><model-viewer alt=\"\" src=\"http://sparklab.local/wp-content/uploads/2025/01/Houman.glb\" ar=\"\" ar-modes=\"webxr\" camera-controls=\"\" enable-pan=\"\" camera-orbit-speed=\"32deg\" min-field-of-view=\"10deg\" max-field-of-view=\"180deg\" field-of-view=\"auto\" camera-orbit=\"0deg 75deg 105%\" max-camera-orbit=\"-Infinity 180deg 105%\" camera-target=\"0m 0m 0%\" style=\"background-color:transparent;height:500px\"></model-viewer></div></div>\n\n\n\n<p><strong>Date:</strong> March 21, 2024<br><strong>Designer:</strong> Houman Ganjali, Caleb Mueller</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Objectives and Constraints</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Objective:</strong> Convert STL models into editable models. Since previous attempts to 3D print have failed, edit/scale existing models for strength and print the 5 pieces to assemble.</li>\n\n\n\n<li><strong>Constraints:</strong> CLT model must be multi-color.</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Materials and Tools</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Software:</strong> Autodesk Fusion</li>\n\n\n\n<li><strong>Materials</strong>: Polycarbonate filament</li>\n\n\n\n<li><strong>Equipment:</strong> Bambu Lab X1C 3D printer and digital calipers</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Phases of Development</strong></h3>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>I. Conversion</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li>The previously printed models were provided in STL mesh format from AutoCAD. These were imported into Fusion and converted to solid bodies. </li>\n</ul>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>II. CAD Modelling and Prototyping</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li>To prevent the 3D printed cylinders from snapping, the diameters were increased by 2mm (with an increase in all hole diameters of 2.4mm for ﬁt). The large panel piece was edited to appear as cross-laminated timber panels and separated into 3 bodies for multi-color printing to accent the orientation of the timber stacking.</li>\n</ul>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>III. Printing of Final Assembly</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li>The pieces seen in Figure 1 were initially printed in carbon ﬁber nylon, but this material proved to be too brittle for this application, even with increased cylinder diameters. The ﬁnal product was printed in PLA as it was in the past, as the dimension changes ensured sufficient strength. The middle CLT model was printed in 2 colors using the Bambu AMS system. </li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Skills Developed</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Converting 3D mesh ﬁles into solids.</li>\n\n\n\n<li>Multi-color printing with AMS system.</li>\n\n\n\n<li>3D printing support structures.</li>\n\n\n\n<li>3D CAD tolerances.</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Support and Resources</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Grad Student: Houman Ganjali (provided CAD files)</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Product Images</strong></h3>\n\n\n\n<figure class=\"wp-block-image size-large\"><img src=\"http://sparklab.local/wp-content/uploads/2024/12/Assembly-separated-e1733170991966-680x1024.jpg\" alt=\"\" class=\"wp-image-324\"/></figure>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Figure 1:</strong> 3D models in Fusion</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Client Feedback</strong></h3>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p>“Overall, the quality of the print was decent with a clean end ﬁnish. Slender parts were fused to the larger parts very well resulting in an acceptable robustness needed for frequent assembling and disassembling that the model will experience, given the print is meant to be used as a demonstration of the structural system in classes and conferences. The use of different colors on individual parts made the model more illustrative. As it is, other than the colors used in the model which do not match the actual material i.e., cross laminated timber and glue laminated timber, and steel, nothing about the model needs to be changed/improved. Thanks for the help and great job on the print”</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Houman Ganjal</li>\n</ul>\n</blockquote>\n</div>"
+  },
+  {
+    "id": 292,
+    "title": "Needle Actuator for Kensington Record Player",
+    "slug": "needle-actuator-for-kensington-record-player",
+    "date": "2024-12-03T04:11:25.000Z",
+    "excerpt": "Date: March 11, 2024Designer: Caleb Mueller Objectives and Constraints Objective: Create a 3D printed polycarbonate actuator, modeled from a broken piece Constraints: Must fit a press-fit metal bearin...",
+    "featuredImage": "2024/12/broken-and-new-model-of-needle-actuator-scaled.jpeg",
+    "categories": [
+      "Projects"
+    ],
+    "modelViewer": {
+      "src": "/wp-content/uploads/2025/01/Needleactuator.glb",
+      "poster": null,
+      "height": 500,
+      "autoRotate": false,
+      "cameraOrbit": "0deg 75deg 105%",
+      "cameraTarget": "0m 0m 0%",
+      "bgColor": "transparent"
+    },
+    "designer": "Caleb Mueller",
+    "projectDate": "March 11, 2024",
+    "contact": null,
+    "lab": null,
+    "objectives": [
+      "**Objective:** Create a 3D printed polycarbonate actuator, modeled from a broken piece",
+      "**Constraints:** Must fit a press-fit metal bearing from the original"
+    ],
+    "materials": [
+      "**Software:** Autodesk Fusion",
+      "**Materials**: Polycarbonate filament",
+      "**Equipment:** Bambu Lab X1C 3D printer and digital calipers"
+    ],
+    "phases": [
+      {
+        "title": "I. Measurement",
+        "items": [
+          "The broken piece was temporarily glued back together and measured using calipers, then proﬁle pictures were taken for reference."
+        ]
+      },
+      {
+        "title": "II. CAD Modelling and Prototyping",
+        "items": [
+          "The actuator was modeled in Fusion using measurements and proﬁle pictures as canvases for the more complex shapes."
+        ]
+      },
+      {
+        "title": "III. Printing of Final Products",
+        "items": [
+          "The model was printed using PC ﬁlament and supports on a Bambu Lab X1-Carbon 3D printer. The original metal bearing was press ﬁt into the replicated actuator."
+        ]
+      }
+    ],
+    "skillsDeveloped": [
+      "Modeling of a complex shape using canvases",
+      "3D printing of a complex shape with support structures",
+      "Tolerances for press-fit metal"
+    ],
+    "supportResources": [
+      "Client Sydney Philpott provided photos of the ﬁnished product in use on the record player/turntable"
+    ],
+    "productImages": [
+      {
+        "src": "/wp-content/uploads/2024/12/image4-768x1024.jpeg",
+        "alt": "",
+        "caption": "3D printed actuator in-use on the record player/turntable"
+      }
+    ],
+    "clientFeedback": {
+      "quote": "“The piece ﬁt well into the record player, and it moves the record player arm like the old broken piece was meant to do!”\n\nSydney Philpott",
+      "name": ""
+    },
+    "contentHtml": "<div class=\"wp-block-group\">\n<div class=\"wp-block-media-model-viewer-block\"><div class=\"model-viewer-app\" data-modelviewer=\"{&quot;modelViewerSrc&quot;:&quot;http://sparklab.local/wp-content/uploads/2025/01/Needleactuator.glb&quot;,&quot;modelViewerPoster&quot;:null,&quot;bg_color&quot;:&quot;transparent&quot;,&quot;bl_height&quot;:500,&quot;arMode&quot;:&quot;webxr&quot;,&quot;arEnablePan&quot;:true,&quot;arCameraControls&quot;:true,&quot;camera_fieldOfView&quot;:0,&quot;camera_autoRotate&quot;:false,&quot;camera_orbit_speed&quot;:32,&quot;camera_orbit_theta&quot;:0,&quot;camera_orbit_phi&quot;:75,&quot;camera_orbit_radius&quot;:105,&quot;camera_target_x&quot;:0,&quot;camera_target_y&quot;:0,&quot;camera_target_z&quot;:0}\"><model-viewer alt=\"\" src=\"http://sparklab.local/wp-content/uploads/2025/01/Needleactuator.glb\" ar=\"\" ar-modes=\"webxr\" camera-controls=\"\" enable-pan=\"\" camera-orbit-speed=\"32deg\" min-field-of-view=\"10deg\" max-field-of-view=\"180deg\" field-of-view=\"auto\" camera-orbit=\"0deg 75deg 105%\" max-camera-orbit=\"-Infinity 180deg 105%\" camera-target=\"0m 0m 0%\" style=\"background-color:transparent;height:500px\"></model-viewer></div></div>\n\n\n\n<p><strong>Date:</strong> March 11, 2024<br><strong>Designer:</strong> Caleb Mueller</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Objectives and Constraints</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Objective:</strong> Create a 3D printed polycarbonate actuator, modeled from a broken piece</li>\n\n\n\n<li><strong>Constraints:</strong> Must fit a press-fit metal bearing from the original</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Materials and Tools</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Software:</strong> Autodesk Fusion</li>\n\n\n\n<li><strong>Materials</strong>: Polycarbonate filament</li>\n\n\n\n<li><strong>Equipment:</strong> Bambu Lab X1C 3D printer and digital calipers</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Phases of Development</strong></h3>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>I. Measurement</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li>The broken piece was temporarily glued back together and measured using calipers, then proﬁle pictures were taken for reference.</li>\n</ul>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>II. CAD Modelling and Prototyping</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li>The actuator was modeled in Fusion using measurements and proﬁle pictures as canvases for the more complex shapes.</li>\n</ul>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>III. Printing of Final Products</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li>The model was printed using PC ﬁlament and supports on a Bambu Lab X1-Carbon 3D printer. The original metal bearing was press ﬁt into the replicated actuator.</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Skills Developed</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Modeling of a complex shape using canvases</li>\n\n\n\n<li>3D printing of a complex shape with support structures</li>\n\n\n\n<li>Tolerances for press-fit metal</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Support and Resources</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Client Sydney Philpott provided photos of the ﬁnished product in use on the record player/turntable</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Product Images</strong></h3>\n\n\n\n<figure class=\"wp-block-image size-large\"><img src=\"http://sparklab.local/wp-content/uploads/2024/12/image4-768x1024.jpeg\" alt=\"\" class=\"wp-image-298\"/></figure>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Figure 1:</strong> 3D printed actuator in-use on the record player/turntable</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Client Feedback</strong></h3>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p>“The piece ﬁt well into the record player, and it moves the record player arm like the old broken piece was meant to do!”</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Sydney Philpott</li>\n</ul>\n</blockquote>\n</div>"
+  },
+  {
+    "id": 270,
+    "title": "Artificial Wetland Probe Holder",
+    "slug": "artificial-wetland-probe-holder",
+    "date": "2024-12-03T04:03:57.000Z",
+    "excerpt": "Date: July 10, 2024Designer: Caleb Mueller Objectives and Constraints Objective: Create a waterproof holder for 3 probes Constraints: Must have enough buoyancy to keep the probes at a certain level in...",
+    "featuredImage": "2024/12/IMG_0686-scaled.jpg",
+    "categories": [
+      "Projects"
+    ],
+    "modelViewer": {
+      "src": "/wp-content/uploads/2025/01/wetland.glb",
+      "poster": null,
+      "height": 500,
+      "autoRotate": false,
+      "cameraOrbit": "0deg 75deg 105%",
+      "cameraTarget": "0m 0m 0%",
+      "bgColor": "transparent"
+    },
+    "designer": "Caleb Mueller",
+    "projectDate": "July 10, 2024",
+    "contact": null,
+    "lab": "UNBC Enhanced Forestry Lab</li>",
+    "objectives": [
+      "**Objective:** Create a waterproof holder for 3 probes",
+      "**Constraints:** Must have enough buoyancy to keep the probes at a certain level in the water. The probe holder and the method of attaching the probes should not degrade over time"
+    ],
+    "materials": [
+      "**Software:** Autodesk Fusion",
+      "**Materials:** PLA, ASA, and ABS filament",
+      "**Equipment:** Voron Trident 3D Printer"
+    ],
+    "phases": [
+      {
+        "title": "I. Client Consultation",
+        "items": [
+          "**Process:** Met with the client to determine the design criteria and properties of the probe holder.",
+          "**Actions:** Measurements were taken of the individual probes."
+        ]
+      },
+      {
+        "title": "II. CAD Modelling and Prototyping",
+        "items": [
+          "**Process:** Developed the model in Fusion.",
+          "**Actions:** Prototypes were printed and PLA and tested at the Enhanced Forestry Lab for waterproofness and buoyancy (as seen in Figure 1)"
+        ]
+      },
+      {
+        "title": "III. Printing of Final Products",
+        "items": [
+          "**Process:** Once a suitable prototype was created, 6 models were printed in ASA and ABS due to its non-porous and mechanically stable properties."
+        ]
+      }
+    ],
+    "skillsDeveloped": [
+      "Buoyancy and waterprooﬁng in 3D prints",
+      "Snap ﬁt design"
+    ],
+    "supportResources": [
+      "**Graduate Student:** Eric Groenenberg",
+      "**Lab:** UNBC Enhanced Forestry Lab"
+    ],
+    "productImages": [
+      {
+        "src": "/wp-content/uploads/2024/12/IMG_0606-768x1024.jpg",
+        "alt": "",
+        "caption": "Testing prototypes at the EFL"
+      }
+    ],
+    "clientFeedback": {
+      "quote": "\"Dear Caleb,\n\nI want to express my appreciation for the work you did in designing and developing the custom 3D",
+      "name": "printed probe holder for my constructed wetland research microcosms. Your design played a critical role in ensuring that our water quality probes consistently recorded measurements at the correct depth, which was vital for the accuracy and reliability of my research data."
+    },
+    "contentHtml": "<div class=\"wp-block-group\">\n<div class=\"wp-block-media-model-viewer-block\"><div class=\"model-viewer-app\" data-modelviewer=\"{&quot;modelViewerSrc&quot;:&quot;http://sparklab.local/wp-content/uploads/2025/01/wetland.glb&quot;,&quot;modelViewerPoster&quot;:null,&quot;bg_color&quot;:&quot;transparent&quot;,&quot;bl_height&quot;:500,&quot;arMode&quot;:&quot;webxr&quot;,&quot;arEnablePan&quot;:true,&quot;arCameraControls&quot;:true,&quot;camera_fieldOfView&quot;:0,&quot;camera_autoRotate&quot;:false,&quot;camera_orbit_speed&quot;:32,&quot;camera_orbit_theta&quot;:0,&quot;camera_orbit_phi&quot;:75,&quot;camera_orbit_radius&quot;:105,&quot;camera_target_x&quot;:0,&quot;camera_target_y&quot;:0,&quot;camera_target_z&quot;:0}\"><model-viewer alt=\"\" src=\"http://sparklab.local/wp-content/uploads/2025/01/wetland.glb\" ar=\"\" ar-modes=\"webxr\" camera-controls=\"\" enable-pan=\"\" camera-orbit-speed=\"32deg\" min-field-of-view=\"10deg\" max-field-of-view=\"180deg\" field-of-view=\"auto\" camera-orbit=\"0deg 75deg 105%\" max-camera-orbit=\"-Infinity 180deg 105%\" camera-target=\"0m 0m 0%\" style=\"background-color:transparent;height:500px\"></model-viewer></div></div>\n\n\n\n<p><strong>Date:</strong> July 10, 2024<br><strong>Designer:</strong> Caleb Mueller</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Objectives and Constraints</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Objective:</strong> Create a waterproof holder for 3 probes</li>\n\n\n\n<li><strong>Constraints:</strong> Must have enough buoyancy to keep the probes at a certain level in the water. The probe holder and the method of attaching the probes should not degrade over time</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Materials and Tools</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Software:</strong> Autodesk Fusion</li>\n\n\n\n<li><strong>Materials:</strong> PLA, ASA, and ABS filament</li>\n\n\n\n<li><strong>Equipment:</strong> Voron Trident 3D Printer</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Phases of Development</strong></h3>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>I. Client Consultation</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Process:</strong> Met with the client to determine the design criteria and properties of the probe holder. </li>\n\n\n\n<li><strong>Actions:</strong> Measurements were taken of the individual probes.</li>\n</ul>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>II. CAD Modelling and Prototyping</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Process:</strong> Developed the model in Fusion.</li>\n\n\n\n<li><strong>Actions:</strong> Prototypes were printed and PLA and tested at the Enhanced Forestry Lab for waterproofness and buoyancy (as seen in Figure 1)</li>\n</ul>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>III. Printing of Final Products</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Process:</strong> Once a suitable prototype was created, 6 models were printed in ASA and ABS due to its non-porous and mechanically stable properties.</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Skills Developed</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Buoyancy and waterprooﬁng in 3D prints</li>\n\n\n\n<li>Snap ﬁt design</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Support and Resources</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Graduate Student:</strong> Eric Groenenberg</li>\n\n\n\n<li><strong>Lab:</strong> UNBC Enhanced Forestry Lab</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Product Images</strong></h3>\n\n\n\n<figure class=\"wp-block-image size-large\"><img src=\"http://sparklab.local/wp-content/uploads/2024/12/IMG_0606-768x1024.jpg\" alt=\"\" class=\"wp-image-290\"/></figure>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Figure 1:</strong> Testing prototypes at the EFL</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Client Feedback</strong></h3>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p>\"Dear Caleb,</p>\n\n\n\n<p>I want to express my appreciation for the work you did in designing and developing the custom 3D-printed probe holder for my constructed wetland research microcosms. Your design played a critical role in ensuring that our water quality probes consistently recorded measurements at the correct depth, which was vital for the accuracy and reliability of my research data.</p>\n\n\n\n<p>From initial design to final prototype, your ability to integrate feedback and refine the design over multiple iterations resulted in a product that was not only precise but perfectly tailored to the needs of my research. The probe holder greatly improved the quality of my data, enabling more accurate and relevant readings which will have a meaningful impact on the outcomes of this project.</p>\n\n\n\n<p>Working with you was a pleasure due to your professionalism, attention to detail, and drive to perfect the design. I also want to acknowledge the support from Spark Labs at UNBC, which provided the material resources and collaborative environment necessary to bring this project to fruition.</p>\n\n\n\n<p>I would gladly collaborate with you again on future projects and highly recommend your skills and expertise to others.</p>\n\n\n\n<p>Thank you again for your excellent work.\"</p>\n\n\n\n<p><br>– <strong>Eric Groenenberg</strong></p>\n</blockquote>\n</div>"
+  },
+  {
+    "id": 220,
+    "title": "UTM Probe Holder Product Design",
+    "slug": "calebs-test",
+    "date": "2024-08-15T06:49:59.000Z",
+    "excerpt": "Date: July 3, 2024Designer: Caleb MuellerLab: Spark Lab, UNBCContact: sparklab@unbc.ca Objectives and Constraints Objective: Model a probe/sample holder capable of holding two probes vertically and ho...",
+    "featuredImage": "2024/08/Screenshot-2024-08-14-at-9.16.40 PM.png",
+    "categories": [
+      "Projects"
+    ],
+    "modelViewer": {
+      "src": "/wp-content/uploads/2025/01/UTM.glb",
+      "poster": null,
+      "height": 500,
+      "autoRotate": false,
+      "cameraOrbit": "0deg 75deg 105%",
+      "cameraTarget": "0m 0m 0%",
+      "bgColor": "transparent"
+    },
+    "designer": "Caleb Mueller",
+    "projectDate": "July 3, 2024",
+    "contact": "sparklab@unbc.ca",
+    "lab": "Spark Lab, UNBC",
+    "objectives": [
+      "**Objective:** Model a probe/sample holder capable of holding two probes vertically and horizontally, while simultaneously holding a soil sample.",
+      "**Constraints:** The holder must fit between two UTM plates without causing interference."
+    ],
+    "materials": [
+      "**Software:** SOLIDWORKS",
+      "**Materials:** PLA filament",
+      "**Equipment:** Voron Trident 3D Printer"
+    ],
+    "phases": [
+      {
+        "title": "I. Client Consultation",
+        "items": [
+          "**Process:** Met with the client to establish design criteria and understand the requirements of the probe holding system.",
+          "**Actions:** Conducted measurements of the sample holder, imitation soil sample, and probe to determine the dimensions required for the CAD model."
+        ]
+      },
+      {
+        "title": "II. CAD Modelling and Prototyping",
+        "items": [
+          "**Process:** Developed the system/assembly model in SOLIDWORKS.",
+          "**Actions:** Presented iterative design progress to the client and ensured proper fit and positioning.",
+          "**Prototyping:** Used PLA to 3D print prototypes, which were then tested using a UTM machine."
+        ]
+      },
+      {
+        "title": "III. Printing of Final Products",
+        "items": [
+          "**Process:** Final model was printed using PLA and delivered to the client."
+        ]
+      }
+    ],
+    "skillsDeveloped": [
+      "Proficiency in SOLIDWORKS assemblies and mates.",
+      "Effective time tracking for invoicing.",
+      "Development of tightening mechanisms without damaging sensitive electronics."
+    ],
+    "supportResources": [
+      "**Graduate Student:** Huan Yu",
+      "**Faculty:** Dr. Wenbo Zheng (PhD, Meng, BEng, PEng)",
+      "**Lab:** Civil and Environmental Engineering Lab (CEEP)"
+    ],
+    "productImages": [
+      {
+        "src": "/wp-content/uploads/2024/08/8f5e25d5-e8b9-40fa-812a-6f5d3f63e77c-940x1024.png",
+        "alt": "",
+        "caption": "Early prototype being tested in the UTM machine."
+      }
+    ],
+    "clientFeedback": {
+      "quote": "\"The clamp is extremely effective in my compression test setup. It makes it possible to hold additional external LVDTs in both the normal and lateral directions, perfectly accommodating the chain for lateral measurements. The installation process is straightforward. It is both economical and practical, fully meeting the requirements for my uniaxial compression tests.\"",
+      "name": "Huan Yu"
+    },
+    "contentHtml": "<div class=\"wp-block-group\">\n<div class=\"wp-block-media-model-viewer-block\"><div class=\"model-viewer-app\" data-modelviewer=\"{&quot;modelViewerSrc&quot;:&quot;http://sparklab.local/wp-content/uploads/2025/01/UTM.glb&quot;,&quot;modelViewerPoster&quot;:null,&quot;bg_color&quot;:&quot;transparent&quot;,&quot;bl_height&quot;:500,&quot;arMode&quot;:&quot;webxr&quot;,&quot;arEnablePan&quot;:true,&quot;arCameraControls&quot;:true,&quot;camera_fieldOfView&quot;:0,&quot;camera_autoRotate&quot;:false,&quot;camera_orbit_speed&quot;:32,&quot;camera_orbit_theta&quot;:0,&quot;camera_orbit_phi&quot;:75,&quot;camera_orbit_radius&quot;:105,&quot;camera_target_x&quot;:0,&quot;camera_target_y&quot;:0,&quot;camera_target_z&quot;:0}\"><model-viewer alt=\"\" src=\"http://sparklab.local/wp-content/uploads/2025/01/UTM.glb\" ar=\"\" ar-modes=\"webxr\" camera-controls=\"\" enable-pan=\"\" camera-orbit-speed=\"32deg\" min-field-of-view=\"10deg\" max-field-of-view=\"180deg\" field-of-view=\"auto\" camera-orbit=\"0deg 75deg 105%\" max-camera-orbit=\"-Infinity 180deg 105%\" camera-target=\"0m 0m 0%\" style=\"background-color:transparent;height:500px\"></model-viewer></div></div>\n\n\n\n<p><strong>Date:</strong> July 3, 2024<br><strong>Designer:</strong> Caleb Mueller<br><strong>Lab:</strong> Spark Lab, UNBC<br><strong>Contact:</strong> <a>sparklab@unbc.ca</a></p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Objectives and Constraints</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Objective:</strong> Model a probe/sample holder capable of holding two probes vertically and horizontally, while simultaneously holding a soil sample.</li>\n\n\n\n<li><strong>Constraints:</strong> The holder must fit between two UTM plates without causing interference.</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Materials and Tools</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Software:</strong> SOLIDWORKS</li>\n\n\n\n<li><strong>Materials:</strong> PLA filament</li>\n\n\n\n<li><strong>Equipment:</strong> Voron Trident 3D Printer</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Phases of Development</strong></h3>\n\n\n\n<h4 class=\"wp-block-heading\"><strong>I. Client Consultation</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Process:</strong> Met with the client to establish design criteria and understand the requirements of the probe holding system.</li>\n\n\n\n<li><strong>Actions:</strong> Conducted measurements of the sample holder, imitation soil sample, and probe to determine the dimensions required for the CAD model.</li>\n</ul>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>II. CAD Modelling and Prototyping</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Process:</strong> Developed the system/assembly model in SOLIDWORKS.</li>\n\n\n\n<li><strong>Actions:</strong> Presented iterative design progress to the client and ensured proper fit and positioning.</li>\n\n\n\n<li><strong>Prototyping:</strong> Used PLA to 3D print prototypes, which were then tested using a UTM machine.</li>\n</ul>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h4 class=\"wp-block-heading\"><strong>III. Printing of Final Products</strong></h4>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Process:</strong> Final model was printed using PLA and delivered to the client.</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Skills Developed</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Proficiency in SOLIDWORKS assemblies and mates.</li>\n\n\n\n<li>Effective time tracking for invoicing.</li>\n\n\n\n<li>Development of tightening mechanisms without damaging sensitive electronics.</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Support and Resources</strong></h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Graduate Student:</strong> Huan Yu</li>\n\n\n\n<li><strong>Faculty:</strong> Dr. Wenbo Zheng (PhD, Meng, BEng, PEng)</li>\n\n\n\n<li><strong>Lab:</strong> Civil and Environmental Engineering Lab (CEEP)</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Product Images</strong></h3>\n\n\n\n<figure class=\"wp-block-image size-large\"><img src=\"http://sparklab.local/wp-content/uploads/2024/08/8f5e25d5-e8b9-40fa-812a-6f5d3f63e77c-940x1024.png\" alt=\"\" class=\"wp-image-241\"/></figure>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Figure 1:</strong> Early prototype being tested in the UTM machine.</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n</div>\n\n\n\n<div class=\"wp-block-group\">\n<h3 class=\"wp-block-heading\"><strong>Client Feedback</strong></h3>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p>\"The clamp is extremely effective in my compression test setup. It makes it possible to hold additional external LVDTs in both the normal and lateral directions, perfectly accommodating the chain for lateral measurements. The installation process is straightforward. It is both economical and practical, fully meeting the requirements for my uniaxial compression tests.\"<br>– <strong>Huan Yu</strong></p>\n</blockquote>\n</div>"
+  }
+]

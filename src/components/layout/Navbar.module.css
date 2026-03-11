@@ -104,8 +104,13 @@
   color: var(--text-primary);
 }
 
-.link:hover::after {
+.link:hover::after,
+.active::after {
   width: 100%;
+}
+
+.active {
+  color: var(--spark-orange);
 }
 
 /* ---- CTA Button ---- */

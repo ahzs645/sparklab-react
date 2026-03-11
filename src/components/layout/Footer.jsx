@@ -1,17 +1,30 @@
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import styles from './Footer.module.css';
 
 const footerLinks = [
   { label: 'About', href: '#about' },
   { label: 'Services', href: '#services' },
-  { label: 'Projects', href: 'projects.html' },
+  { label: 'Blog', to: '/blog' },
+  { label: 'Projects', to: '/projects' },
   { label: 'Contact', href: '#contact' },
 ];
 
 export default function Footer() {
-  const handleNav = (e, href) => {
-    if (href.startsWith('#')) {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleNav = (e, link) => {
+    if (link.href) {
       e.preventDefault();
-      document.getElementById(href.slice(1))?.scrollIntoView({ behavior: 'smooth' });
+      const sectionId = link.href.slice(1);
+      if (location.pathname === '/') {
+        document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        navigate('/');
+        setTimeout(() => {
+          document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
     }
   };
 
@@ -23,16 +36,26 @@ export default function Footer() {
         </div>
 
         <nav className={styles.links}>
-          {footerLinks.map((link) => (
-            <a
-              key={link.label}
-              href={link.href}
-              className={styles.link}
-              onClick={(e) => handleNav(e, link.href)}
-            >
-              {link.label}
-            </a>
-          ))}
+          {footerLinks.map((link) =>
+            link.href ? (
+              <a
+                key={link.label}
+                href={link.href}
+                className={styles.link}
+                onClick={(e) => handleNav(e, link)}
+              >
+                {link.label}
+              </a>
+            ) : (
+              <Link
+                key={link.label}
+                to={link.to}
+                className={styles.link}
+              >
+                {link.label}
+              </Link>
+            )
+          )}
         </nav>
 
         <div className={styles.note}>

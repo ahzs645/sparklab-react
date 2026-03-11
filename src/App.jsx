@@ -1,12 +1,12 @@
+import { Routes, Route } from 'react-router-dom';
 import { useTheme } from './hooks/useTheme';
 import Navbar from './components/layout/Navbar';
-import Hero from './components/sections/Hero';
-import About from './components/sections/About';
-import Services from './components/sections/Services';
-import PhotoStrip from './components/sections/PhotoStrip';
-// import VisitInfo from './components/sections/VisitInfo';
-import Contact from './components/sections/Contact';
 import Footer from './components/layout/Footer';
+import Home from './pages/Home';
+import BlogPage from './pages/BlogPage';
+import BlogPostPage from './pages/BlogPostPage';
+import ProjectsPage from './pages/ProjectsPage';
+import ProjectDetailPage from './pages/ProjectDetailPage';
 
 export default function App() {
   const { theme, toggle } = useTheme();
@@ -15,12 +15,13 @@ export default function App() {
     <>
       <Navbar theme={theme} onToggleTheme={toggle} />
       <main>
-        <Hero />
-        <About />
-        <Services />
-        <PhotoStrip />
-        {/* <VisitInfo /> */}
-        <Contact />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/blog/:slug" element={<BlogPostPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/projects/:slug" element={<ProjectDetailPage />} />
+        </Routes>
       </main>
       <Footer />
     </>

@@ -1,0 +1,261 @@
+.detail {
+  padding: 10rem 1.5rem 6rem;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.backLink {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 2.5rem;
+  transition: color 0.2s ease;
+}
+
+.backLink:hover {
+  color: var(--spark-orange);
+}
+
+/* ---- Header ---- */
+.header {
+  margin-bottom: 2.5rem;
+  opacity: 0;
+  transform: translateY(24px);
+  transition: all 0.7s var(--ease-out-expo);
+}
+
+.header:global(.revealed) {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.title {
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.25rem;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+}
+
+.metaItem {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.metaItem strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* ---- Model Viewer ---- */
+.modelContainer {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: 3rem;
+  border: 1px solid var(--card-border);
+  background: var(--bg-card);
+}
+
+.modelContainer model-viewer {
+  width: 100%;
+  display: block;
+}
+
+/* ---- Content Sections ---- */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.section {
+  padding: 2rem 0;
+  border-top: 1px solid var(--card-border);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s var(--ease-out-expo);
+}
+
+.section:global(.revealed) {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.sectionTitle {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1.25rem;
+  letter-spacing: -0.01em;
+}
+
+/* ---- Lists ---- */
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.list li {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  padding-left: 1.25rem;
+  position: relative;
+}
+
+.list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--spark-orange);
+  opacity: 0.6;
+}
+
+.list li strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* ---- Phases ---- */
+.phases {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.phase {
+  padding-left: 1.25rem;
+  border-left: 2px solid var(--spark-orange);
+}
+
+.phaseTitle {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+}
+
+/* ---- Tags (skills) ---- */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+}
+
+.tag {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  background: rgba(248, 92, 20, 0.08);
+  color: var(--spark-orange);
+  border-radius: 100px;
+  border: 1px solid rgba(248, 92, 20, 0.15);
+}
+
+/* ---- Gallery ---- */
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.figure {
+  margin: 0;
+}
+
+.figure img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--card-border);
+}
+
+.figCaption {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.75rem;
+  text-align: center;
+}
+
+.figCaption strong {
+  color: var(--text-secondary);
+}
+
+/* ---- Quote ---- */
+.quote {
+  border-left: 3px solid var(--spark-orange);
+  padding: 1.5rem 2rem;
+  background: rgba(248, 92, 20, 0.04);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.quote p {
+  font-size: 1rem;
+  color: var(--text-primary);
+  line-height: 1.8;
+  font-style: italic;
+  white-space: pre-line;
+}
+
+.quoteAuthor {
+  font-family: 'Outfit', sans-serif;
+  font-style: normal;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--spark-orange);
+  margin-top: 1rem;
+}
+
+/* ---- Responsive ---- */
+@media (min-width: 1024px) {
+  .detail {
+    padding: 12rem 2rem 7rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .detail {
+    padding: 8rem 1.25rem 4rem;
+  }
+
+  .meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .phase {
+    padding-left: 1rem;
+  }
+
+  .quote {
+    padding: 1.25rem 1.5rem;
+  }
+}

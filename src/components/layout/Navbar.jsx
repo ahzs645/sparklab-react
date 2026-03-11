@@ -1,12 +1,14 @@
 import { useState, useCallback } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useScrollPosition } from '../../hooks/useScrollPosition';
 import styles from './Navbar.module.css';
 
 const navLinks = [
-  { label: 'About', href: '#about' },
-  { label: 'Services', href: '#services' },
-  { label: 'Projects', href: 'projects.html' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'About', href: '#about', to: '/' },
+  { label: 'Services', href: '#services', to: '/' },
+  { label: 'Blog', to: '/blog' },
+  { label: 'Projects', to: '/projects' },
+  { label: 'Contact', href: '#contact', to: '/' },
 ];
 
 function SunIcon() {
@@ -36,36 +38,68 @@ function MoonIcon() {
 export default function Navbar({ theme, onToggleTheme }) {
   const scrolled = useScrollPosition(50);
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
-  const handleNav = useCallback((e, href) => {
-    if (href.startsWith('#')) {
+  const handleNav = useCallback((e, link) => {
+    setMenuOpen(false);
+
+    // If the link has a hash anchor (About, Services, Contact)
+    if (link.href) {
       e.preventDefault();
-      setMenuOpen(false);
-      document.getElementById(href.slice(1))?.scrollIntoView({ behavior: 'smooth' });
+      const sectionId = link.href.slice(1);
+
+      if (location.pathname === '/') {
+        // Already on home page, just scroll
+        document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        // Navigate to home then scroll
+        navigate('/');
+        setTimeout(() => {
+          document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
     }
-  }, []);
+    // For route links (Blog, Projects), Link handles it
+  }, [location.pathname, navigate]);
+
+  const handleLogo = (e) => {
+    e.preventDefault();
+    if (location.pathname === '/') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      navigate('/');
+    }
+  };
 
   return (
     <>
       <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
-        <a href="#" className={styles.logo} onClick={(e) => {
-          e.preventDefault();
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        }}>
+        <a href="/" className={styles.logo} onClick={handleLogo}>
           <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="SparkLab" className={styles.logoImg} />
         </a>
 
         <div className={styles.links}>
-          {navLinks.map((link) => (
-            <a
-              key={link.label}
-              href={link.href}
-              className={styles.link}
-              onClick={(e) => handleNav(e, link.href)}
-            >
-              {link.label}
-            </a>
-          ))}
+          {navLinks.map((link) =>
+            link.href ? (
+              <a
+                key={link.label}
+                href={link.href}
+                className={styles.link}
+                onClick={(e) => handleNav(e, link)}
+              >
+                {link.label}
+              </a>
+            ) : (
+              <Link
+                key={link.label}
+                to={link.to}
+                className={`${styles.link} ${location.pathname.startsWith(link.to) && link.to !== '/' ? styles.active : ''}`}
+              >
+                {link.label}
+              </Link>
+            )
+          )}
           <button
             className={styles.themeToggle}
             onClick={onToggleTheme}
@@ -76,7 +110,7 @@ export default function Navbar({ theme, onToggleTheme }) {
           <a
             href="#contact"
             className={styles.ctaBtn}
-            onClick={(e) => handleNav(e, '#contact')}
+            onClick={(e) => handleNav(e, { href: '#contact' })}
           >
             Join Us
           </a>
@@ -105,21 +139,33 @@ export default function Navbar({ theme, onToggleTheme }) {
       {/* Mobile menu overlay */}
       <div className={`${styles.mobileOverlay} ${menuOpen ? styles.visible : ''}`}>
         <div className={styles.mobileMenu}>
-          {navLinks.map((link, i) => (
-            <a
-              key={link.label}
-              href={link.href}
-              className={styles.mobileLink}
-              style={{ animationDelay: menuOpen ? `${0.05 + i * 0.06}s` : '0s' }}
-              onClick={(e) => handleNav(e, link.href)}
-            >
-              {link.label}
-            </a>
-          ))}
+          {navLinks.map((link, i) =>
+            link.href ? (
+              <a
+                key={link.label}
+                href={link.href}
+                className={styles.mobileLink}
+                style={{ animationDelay: menuOpen ? `${0.05 + i * 0.06}s` : '0s' }}
+                onClick={(e) => handleNav(e, link)}
+              >
+                {link.label}
+              </a>
+            ) : (
+              <Link
+                key={link.label}
+                to={link.to}
+                className={styles.mobileLink}
+                style={{ animationDelay: menuOpen ? `${0.05 + i * 0.06}s` : '0s' }}
+                onClick={() => setMenuOpen(false)}
+              >
+                {link.label}
+              </Link>
+            )
+          )}
           <a
             href="#contact"
             className={styles.mobileCta}
-            onClick={(e) => handleNav(e, '#contact')}
+            onClick={(e) => handleNav(e, { href: '#contact' })}
           >
             Join Us
           </a>
