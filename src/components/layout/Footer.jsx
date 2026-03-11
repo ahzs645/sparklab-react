@@ -6,7 +6,7 @@ const footerLinks = [
   { label: 'Services', href: '#services' },
   { label: 'Blog', to: '/blog' },
   { label: 'Projects', to: '/projects' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Contact', to: '/contact' },
 ];
 
 export default function Footer() {

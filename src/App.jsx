@@ -7,6 +7,8 @@ import BlogPage from './pages/BlogPage';
 import BlogPostPage from './pages/BlogPostPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ProjectDetailPage from './pages/ProjectDetailPage';
+import ContactPage from './pages/ContactPage';
+import SecretPage from './pages/SecretPage';
 
 export default function App() {
   const { theme, toggle } = useTheme();
@@ -21,6 +23,8 @@ export default function App() {
           <Route path="/blog/:slug" element={<BlogPostPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/projects/:slug" element={<ProjectDetailPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/secret" element={<SecretPage />} />
         </Routes>
       </main>
       <Footer />

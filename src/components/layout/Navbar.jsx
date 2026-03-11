@@ -8,7 +8,7 @@ const navLinks = [
   { label: 'Services', href: '#services', to: '/' },
   { label: 'Blog', to: '/blog' },
   { label: 'Projects', to: '/projects' },
-  { label: 'Contact', href: '#contact', to: '/' },
+  { label: 'Contact', to: '/contact' },
 ];
 
 function SunIcon() {
@@ -107,13 +107,9 @@ export default function Navbar({ theme, onToggleTheme }) {
           >
             {theme === 'light' ? <MoonIcon /> : <SunIcon />}
           </button>
-          <a
-            href="#contact"
-            className={styles.ctaBtn}
-            onClick={(e) => handleNav(e, { href: '#contact' })}
-          >
+          <Link to="/contact" className={styles.ctaBtn}>
             Join Us
-          </a>
+          </Link>
         </div>
 
         <div className={styles.rightControls}>
@@ -162,13 +158,13 @@ export default function Navbar({ theme, onToggleTheme }) {
               </Link>
             )
           )}
-          <a
-            href="#contact"
+          <Link
+            to="/contact"
             className={styles.mobileCta}
-            onClick={(e) => handleNav(e, { href: '#contact' })}
+            onClick={() => setMenuOpen(false)}
           >
             Join Us
-          </a>
+          </Link>
         </div>
       </div>
     </>

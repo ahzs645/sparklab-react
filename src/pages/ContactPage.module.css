@@ -1,0 +1,107 @@
+.contact {
+  padding: 10rem 1.5rem 6rem;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-md);
+  padding: 2rem;
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.7s var(--ease-out-expo),
+    transform 0.7s var(--ease-out-expo),
+    border-color 0.3s ease;
+}
+
+.card:global(.revealed) {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card:hover {
+  border-color: var(--spark-orange);
+}
+
+.cardIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(248, 92, 20, 0.08);
+  color: var(--spark-orange);
+  margin-bottom: 1.25rem;
+}
+
+.cardLabel {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.01em;
+}
+
+.cardContent {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.cardContent p {
+  margin: 0;
+}
+
+.cardContent p + p {
+  margin-top: 0.15rem;
+}
+
+.emailLink {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  color: var(--spark-orange);
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 1.05rem;
+  transition: opacity 0.2s ease;
+}
+
+.emailLink:hover {
+  opacity: 0.8;
+}
+
+@media (min-width: 1024px) {
+  .contact {
+    padding: 12rem 2rem 7rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact {
+    padding: 8rem 1.25rem 4rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+}
